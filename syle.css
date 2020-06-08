@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/chair-cutlery-diner-dining-941861.jpg) no-repeat center
+    center/cover;
+  height: 300px;
+  color: #ffffff;
+}
+.container input {
+  margin-bottom: 1rem;
+  width: 40%;
+  height: 1.5rem;
+  border: none;
+  border-radius: 10px;
+}
+button {
+  padding: 0.5rem 2rem;
+  background-color: #e8914a;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+}
+p {
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+hr {
+  width: 100px;
+  margin-bottom: 1rem;
+}
